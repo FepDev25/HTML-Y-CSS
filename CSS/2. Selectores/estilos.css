@@ -1,6 +1,30 @@
-/* Esta es una hoja de estilos
-/* Muchas formas de seleccionar elementos, esto se llaman Selectores */
+/*Selector por elemento */
 
 h2 {
     color: aqua;
+}
+
+p{
+    color: red;
+    text-align: justify;
+}
+
+li {
+    color: #3af022;
+}
+
+span{
+    color: blueviolet;
+}
+
+/*Selector por clase
+Todos los elementos que pertenezcan a la clase, tendran ese estilo */
+
+.mi_clase {
+    color: blue;
+}
+
+/*Selector por  ID: A un elemento unico */
+#ingrediente_secreto{
+    color: burlywood;
 }

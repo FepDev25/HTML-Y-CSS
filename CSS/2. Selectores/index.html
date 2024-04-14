@@ -1,29 +1,46 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <!-- Tercer forma y recomendada: Enlazar el html con un script css independiente-->
         <link rel="stylesheet" href="estilos.css">
-        <title>Introduccion a CSS</title>
+        <title>Selectores CSS</title>
     </head>
 
     <body>
+        <!-- Clases: Asignarle a un elemento una clase y separarlos por clases distintas -->
+        <!-- ID: identificador unico -->
+
         <h1>Titulo de mi Pagina</h1>
 
         <h2>Subtitulo 1</h2>
 
-        <!-- Primer forma de dar estilo: Dar estilo en linea-->
-        <p style="color: red;">
+        <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae facilis quia dolorem nisi earum sed alias aliquam autem quaerat inventore fuga nobis error consequuntur, saepe magni quos dolore recusandae neque?
         </p>
 
-        <!-- Segunda forma: Dar estilo mediante la etiqueta style -->
-        <style>
-            h1{
-                color: blue;
-            }
-            p{
-                font-size: 20px;
-            }
-        </style>
+        <h2>Otro subtema </h2>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae facilis quia dolorem nisi earum sed alias aliquam autem quaerat inventore fuga nobis error consequuntur, saepe magni quos dolore recusandae neque?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, architecto ipsa temporibus sunt numquam libero rem. Sunt labore praesentium, placeat doloremque quidem amet aperiam, vero fugit optio tenetur totam quod.
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus ipsa molestiae, porro, labore aut possimus voluptates impedit nostrum accusantium quasi, consequuntur aliquam libero obcaecati natus! Distinctio nam corporis beatae amet!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam labore praesentium esse cum libero iste! Iure magnam ipsam voluptatum, laboriosam inventore necessitatibus modi praesentium eum ratione vero temporibus ab eius!
+        </p>
+
+        <h2>Ingresdientes</h2>
+        <ul>
+            <li>Una botella de <span>Aceite</span></li>
+            <li class="mi_clase">Leche</li>
+            <li>Sal</li>
+            <li>Mantequilla</li>
+            <li>Manteca</li>
+            <li>Arroz</li>
+            <li>Azucar</li>
+            <li>Naranjas</li>
+            <li class="mi_clase">Pan</li>
+            <li id="ingrediente_secreto">Ingrediente secreto</li>
+        </ul>
+
+        <p class="mi_clase">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, quod officia repellendus voluptas adipisci qui voluptates ex atque, laudantium deserunt nostrum vel officiis laborum sint, ipsum eos iste! Culpa, nulla.
+        </p>
     </body>
 </html>
