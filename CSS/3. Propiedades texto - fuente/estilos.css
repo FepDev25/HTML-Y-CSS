@@ -1,0 +1,42 @@
+p {
+    color:rgb(9, 9, 231); /* Cambiar el color del texto*/
+    font-family: Georgia, 'Times New Roman', Times, serif; /* Darle una fuente al texto*/
+    text-align: justify; /* Alinamiento del texto, left, right, center, justify dentro de su contenedor */
+    font-size: 15px; /* Size del texto */
+    font-weight: 100; /* Grosor de la tipografia. Depende de la tipografia la escala de anchos */
+}
+
+.negrita{
+    font-weight: bold; /* Grosor igual a la negrita. Ancho de 700. Bolder tiene 900, mas grueso xd */
+}
+
+.italica{
+    font-style: italic /* Letra en cursiva */;
+}
+
+.oblique {
+    font-style: oblique /* Letra en cursiva no tan inclinada. Depende igual de la tipografia*/;
+}
+
+.parrafo_aparte{
+    text-align: center;
+    color: blueviolet;
+    font-size: 1.1em;
+    text-decoration: underline; /* Algunas decoraciones del texto (subrayado), underline, overline, line-through, se pueden utilizar a la vez */
+    line-height: 200%; /* Espaciado de un texto, distancia entre linea y linea*/
+}
+
+span{
+    text-decoration: line-through;
+    color: yellowgreen;
+    font-size: 1.2em;
+    letter-spacing: 10px; /* El espacio entre letras*/
+} 
+
+a{
+    text-decoration: none; /* Quitarle la linea de subrayado a la etiqueta de enlace*/
+}
+
+#mayuscula{
+    text-transform:uppercase; /* Algunas tranformaciones al texto, uppercase, lowercase, capitalize (todas las iniciales upper(*/
+}
