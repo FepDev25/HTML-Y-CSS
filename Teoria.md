@@ -12,6 +12,7 @@
 - Los elementos tienen propiedades, que son sus caracteristicas. Ej: Color, sombras, borde etc.
 - Las propiedades son declaradas por el ordenador con caracteristicas base.
 ![Sintaxis de HTML](./img/htmlSintax.png)
+- Atributos: Caracteristicas de las etiquetas HTML.
 
 ## CSS: Cascade Estile Sheets (Hojas de estilo en cascada)
 
