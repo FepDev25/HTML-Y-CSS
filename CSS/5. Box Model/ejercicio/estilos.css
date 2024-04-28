@@ -1,0 +1,32 @@
+body{
+    font-family: sans-serif;
+    background-color: lightgrey;
+}
+
+.card{
+    background-color: aqua;
+    text-align: center;
+    width: 300px;
+    /* Centrar horizontalmente un elemento */
+    margin: auto;
+    margin-top: 25px;
+}
+
+h1{
+    padding-top: 10px;
+    font-size: 22px;
+    margin: 0;
+}
+
+h2{
+    font-size: 14px;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+p{
+    font-size: 9px;
+    padding: 20px;
+    text-align: justify;
+    background-color: lightyellow;
+}

@@ -1,0 +1,87 @@
+div{
+    background-color: lightcoral;
+}
+
+p{
+    background-color: lightgreen;
+    padding: 10px;
+}
+
+/* Padding y margin */
+.formulario{
+    background-color: red;
+    padding: 10px;
+    margin: 50px; 
+}
+
+.formulario_input{
+    padding: 5px;
+}
+
+/* Tipos especificos de padding */
+/*
+top: Arriba
+bottom: Abajo
+left y right: Izquierda y derecha
+padding: Shorthand de las 4 anteriores, el mismo valor para todos
+*/
+#name{
+    padding-top: 50px;
+}
+
+#lastname{
+    padding-bottom: 50px;
+}
+
+#phone{
+    padding: 70px 50px; /* Top y Bottom, Left y Right. Vertical y horizontal */
+}
+
+#dir{
+    padding: 18px 0 50px 10px; /* top, right, buttom, left, agujas del reloj*/
+}
+
+/* Margin: */
+.formulario2{
+    background-color: greenyellow;
+    padding: 50px;
+}
+
+.formulario_input2{
+    width: 400px;
+    height: 50px;
+    margin: 30px;
+}
+
+/* Separa las cajas 15px entre ellas*/
+.box{
+    background: blueviolet;
+    height: 150px;
+    width: 150px;
+    margin: 15px;
+    padding: 50px;
+}
+
+.box_grande{
+    background-color: lightpink;
+    height: 150px;
+    width: 150px;
+    margin: 30px;
+    padding: 50px;
+}
+
+#caja1{
+    margin-left: 100px;
+}
+
+#caja2{
+    margin-top: 70px;
+}
+
+#caja3{
+    margin-bottom: 70px;
+}
+
+#caja4{
+    margin: 0 0 100px 500px;
+}
