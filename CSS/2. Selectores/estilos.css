@@ -19,7 +19,6 @@ span{
 
 /*Selector por clase
 Todos los elementos que pertenezcan a la clase, tendran ese estilo */
-
 .mi_clase {
     color: blue;
 }

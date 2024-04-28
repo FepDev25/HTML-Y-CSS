@@ -1,0 +1,25 @@
+p{
+    text-align: justify;
+    /* Utilizar la fuente de Google Fonts */
+    font-family: Montserrat;
+}
+
+.monte_carlo{
+    /* Font de archivo fonts.css */
+    font-family: MonteCarlo;
+}
+
+#negrita1{
+    font-family: Montserrat_Negrita;
+    font-weight: 400;
+}
+
+#negrita2{
+    font-family: Montserrat_Negrita;
+    font-weight: 900;
+}
+
+#light{
+    font-family: Montserrat;
+    font-weight: 100;
+}

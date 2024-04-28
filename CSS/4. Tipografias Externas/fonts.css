@@ -1,0 +1,32 @@
+/* Se definene las fuentes. Se les asigna un nombre, el link de donde se encuentran y el format*/
+
+/* Una vez definido aqui, se puede usar en estilos.css*/
+@font-face {
+    font-family: Montserrat;
+    src: url(fonts/Montserrat-Light.ttf) format("truetype");
+    font-weight: 100;
+}
+@font-face {
+    font-family: Montserrat;
+    src: url(fonts/Montserrat-Regular.ttf) format("truetype");
+    font-weight: 400;
+}
+
+/* Varias Versiones
+/* Pueden tener el mismo nombre, pero al especificar el weigt se distinguiran de cual va a hacer referencia*/
+/* Funciona por cercanias. */
+@font-face {
+    font-family: Montserrat_Negrita;
+    src: url(fonts/Montserrat-Bold.ttf) format("truetype");
+    font-weight: 400;
+}
+@font-face {
+    font-family: Montserrat_Negrita;
+    src: url(fonts/Montserrat-ExtraBold.ttf) format("truetype");
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: MonteCarlo;
+    src: url(fonts/MonteCarlo-Regular.ttf) format("truetype");
+}

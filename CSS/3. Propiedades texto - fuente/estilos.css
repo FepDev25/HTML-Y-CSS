@@ -23,7 +23,7 @@ p {
     color: blueviolet;
     font-size: 1.1em;
     text-decoration: underline; /* Algunas decoraciones del texto (subrayado), underline, overline, line-through, se pueden utilizar a la vez */
-    line-height: 200%; /* Espaciado de un texto, distancia entre linea y linea*/
+    line-height: 210%; /* Espaciado de un texto, distancia entre linea y linea*/
 }
 
 span{
