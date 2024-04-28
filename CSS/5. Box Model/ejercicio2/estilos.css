@@ -1,0 +1,20 @@
+a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+body{
+    background-color: black;
+}
+
+input{
+    margin: 10px;
+    width: 800px;
+}
+
+.formulario{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid whitesmoke;
+    color: greenyellow;
+}

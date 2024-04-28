@@ -1,0 +1,79 @@
+/* Principales cambios: border-width, border-style, border-color*/
+/* border-radius: redondear esquinas de un elemento */
+div{
+    width: 150px;
+    height: 150px;
+    background-color: lightcyan;
+    margin: auto;
+}
+
+#box0{
+    border: 3px solid bisque; /* Shorthand de border */
+}
+
+#box1{
+    border-width: 3px;
+    border-color: red;
+    border-style: solid;
+
+    padding-left: 10px;
+}
+
+#box2{
+    border-width: 5px;
+    border-color: blue;
+    border-style: double;
+}
+
+#box3{
+    border-width: 2px;
+    border-color: olivedrab;
+    border-style: dashed;
+}
+
+#box4{
+    border-width: 50px;
+    border-color: blue;
+    border-style: groove;
+}
+
+#box5{
+    border-width: 5px;
+    border-color: teal;
+    border-style: dotted;
+}
+
+#box6{
+    border-width: 50px;
+    border-style: hidden; /* Border existe pero no es visible*/
+}
+
+#box7{
+    border-width: 5px;
+    border-color: mediumslateblue;
+    border-style: solid;
+    border-radius: 8px;
+}
+
+#box8{
+    margin: 40px;
+    border-top: 3px solid navy;
+    border-bottom: 4px dotted black;
+}
+
+#box9{
+    margin: 40px;
+    border-left: 3px double navy;
+    border-right: 4px dashed black;
+}
+
+/* Direccionde las agujas del reloj*/
+#box10{
+    border: 4px solid red;
+    border-radius: 4px 10px 1px 20px;
+}
+/* En diagonal */
+#box11{
+    border: 4px solid green;
+    border-radius: 20px 4px;
+}
